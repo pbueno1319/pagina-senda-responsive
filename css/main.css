@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+body{
+    font-family: 'Merriweather', serif;
+}
+.my-awesome-navbar ul li a, .lgis {
+  transition: .4s;
+  font-size: 13px;
+}
+.my-awesome-navbar ul li a:hover, .lgis:hover {
+  color: #FF5274;
+  background: transparent;
+}
+.my-awesome-navbar {
+    padding: 38px 0;
+    height: auto;
+    border-bottom: 1px #aaa solid;
+    transition: .6s;
+    z-index: 21;
+    box-shadow: 0 0 0 0;
+  
+}
+.container{
+  width: 92%;
+}
+.my-awesome-navbar .row {
+    margin: 0;
+}
+li{
+  
+    list-style: none;
+}
+.image{
+  width: 100px;
+}
+.titul{
+  display: flex;
+  transition: .6s;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  z-index: 1;
+}
+.btns1{
+  background-color: transparent !important;
+  border-radius: 100px;
+  border: 1.5px white solid;
+  transition: .4s;
+  padding: 0 40px;
+}
+.btns1:hover{
+  background: transparent;
+  color: #FF5274;
+  border: 1.5px #FF5274 solid;
+ 
+}
+.pantal{
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/hero-min.jpg");
+    background-size: cover;
+    height: 750px;
+    display: flex;
+   
+}
+/*botones dentro del titulo*/
+.btnes2{
+  text-align: center;
+  padding: 18px 42px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(255, 82, 116);
+  transition: .3s;
+  margin: 33px;
+  
+}
+.btnes2:hover{
+ background-color: #DA3A5D;
+}
+.btnes3{
+  padding: 15px 40px 15px 40px;
+  border-radius: 100px;
+  border: 1.5px #FF5274 solid;
+  color:#FF5274 ;
+  transition: .3s;
+}
+.btnes3:hover{
+  background-color:#FF5274;
+  color: white;
+ }
+
+.paftitul{
+    color: white;
+  
+}
+.paftitul>div{
+    width: fit-content;
+    margin: 0 auto;
+}
+.titlo{
+  margin-bottom: 42px;
+  margin: 0;
+  text-align: center;
+ 
+ } 
+.parraf{
+    font-size: 25px; 
+    margin-top: 53px;
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+/*flecha de movimiento*/
+.flechmovi{
+  animation: ariba-y-abajo 4s alternate infinite;
+  position: absolute;
+  font-size: 22px;
+  bottom: 20px;
+  color: white;
+}
+
+
+@keyframes ariba-y-abajo {
+  0% {
+      transform: translateY(0);
+  }
+  35% {
+      transform: translateY(-12px);
+  }
+  70% {
+      transform: translateY(12px);
+  }
+  100% {
+      transform: translateY(0);        
+  }
+}
+.contienes{
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 752px;
+}
+/*parrafos debajo del titulo */
+.titul{
+  font-size: 15px;
+  margin: 0;
+}
+.texts{
+  font-size: 15px;
+  line-height: 29px;
+  color: rgba(13, 59, 109, 0.6);
+  padding-bottom: 20px;
+}
+.parrafs{
+  padding: 160px 176px;
+}
+
+.columnas{
+  display: flex;
+}
+.imgnes{
+  width: 12%;
+  align-self: flex-start;
+  margin-right: 16px;
+}
+
+/*imagen del celular y textos al lado*/
+
+
